@@ -246,7 +246,21 @@
                 </div>
                 
                 <div class="contact-form-container">
-                    <form class="contact-form" id="contactForm" method="POST" action="/send-email">
+                    <form
+                            action="https://formspree.io/f/xvgrvkqr"
+                            method="POST"
+                    >
+                        <label>
+                            Your email:
+                            <input type="email" name="email">
+                        </label>
+                        <label>
+                            Your message:
+                            <textarea name="message"></textarea>
+                        </label>
+                        <!-- your other form fields go here -->
+                        <button type="submit">Send</button>
+                    </form>
                         <div class="form-group">
                             <input type="text" id="name" name="name" required>
                             <label for="name">Nom</label>
@@ -287,6 +301,5 @@
     </footer>
 
     <script src="js/script.js"></script>
-    <script src="js/mail.js"></script>
 </body>
 </html>
