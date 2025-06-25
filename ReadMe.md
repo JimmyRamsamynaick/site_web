@@ -22,7 +22,7 @@ Ce dépôt contient un site web codé en **HTML**, avec une mise en forme en **C
 
 1. Cloner ce dépôt :
    ```bash
-   git clone https://github.com/ton-utilisateur/nom-du-repo.git
+   git clone git@github.com:JimmyRamsamynaick/site_web.git
 
     Naviguer dans le dossier :
 
